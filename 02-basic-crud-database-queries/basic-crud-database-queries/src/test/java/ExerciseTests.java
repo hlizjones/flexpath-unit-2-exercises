@@ -27,6 +27,7 @@ public class ExerciseTests {
         configBuilder.setPort(0);
         db = DB.newEmbeddedDB(configBuilder.build());
         db.start();
+        db.createDB("test", "root", "");
 
         connection = DriverManager.getConnection(
             "jdbc:mariadb://localhost:" + db.getConfiguration().getPort() + "/test",

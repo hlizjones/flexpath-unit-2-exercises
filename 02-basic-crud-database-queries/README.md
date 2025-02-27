@@ -1,4 +1,4 @@
-# SELECT query exercises
+DATABASEdataba# SELECT query exercises
 
 The exercises in this project are designed to help you review your knowledge of SQL SELECT statements.
 
@@ -50,3 +50,4 @@ the test will fail and you will need to modify your query to get it to pass.
 > MySQL server or database.  This is to ensure that the tests are repeatable and do not depend on the state of
 > your local database.
 
+Error Code: 1140. In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'ecommerce.orderitems.ProductID'; this is incompatible with sql_mode=only_full_group_by

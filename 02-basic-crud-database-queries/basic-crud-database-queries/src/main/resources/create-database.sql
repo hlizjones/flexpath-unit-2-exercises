@@ -123,5 +123,5 @@ VALUES (2, 1, 1, 699.99);  -- Order 2: 1 Smartphone
 
 -- Sample Data for Payments Table
 INSERT INTO Payments (OrderID, Amount, PaymentMethod, Status)
-VALUES (1, 719.98, 'Credit Card', 'Completed');
-VALUES (2, 32.98, 'PayPal', 'Pending');
+VALUES (1, 719.98, 'Credit Card', 'Completed'),
+(2, 32.98, 'PayPal', 'Pending');

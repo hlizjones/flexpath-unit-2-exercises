@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a57096f7-adea-4e54-8363-acc5b7a79195" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/01-order-details.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/02-products-with-category.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-creating-databases/creating-databases/src/main/resources/create-database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-creating-databases/creating-databases/src/main/resources/create-database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-creating-databases/creating-databases/src/test/java/TestCreateScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-creating-databases/creating-databases/src/test/java/TestCreateScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/01-get-la-users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/01-get-la-users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/02-unique-user-cities.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/02-unique-user-cities.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/03-revenue-per-product.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/03-revenue-per-product.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/04-frequently-ordered.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/04-frequently-ordered.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/create-database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/create-database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03-database-joins/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-database-joins/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExerciseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExerciseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/01-order-details.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/01-order-details.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/02-products-with-category.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/02-products-with-category.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/03-orders-with-user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/03-orders-with-user.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/create-database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/main/resources/create-database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/test/java/ExerciseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-database-joins/database-joins/src/test/java/ExerciseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04-database-subqueries/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../04-database-subqueries/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../04-database-subqueries/database-subqueries/src/test/java/ExerciseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04-database-subqueries/database-subqueries/src/test/java/ExerciseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +53,10 @@
     &quot;JUnit.ExerciseTests.test02UniqueUserCities.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ExerciseTests.test03RevenuePerProduct.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mikel/projects/flexpath-unit-2-exercises/03-database-joins/database-joins/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Code/flexpath-unit-2-exercises/02-basic-crud-database-queries/basic-crud-database-queries/pom.xml&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>

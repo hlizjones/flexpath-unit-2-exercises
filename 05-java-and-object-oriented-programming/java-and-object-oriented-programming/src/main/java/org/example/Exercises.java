@@ -24,7 +24,9 @@ public class Exercises {
     // Multiply pi by 5 and store the result in a variable called result
     // Return the result
     public double multiplyPiBy5() {
-        return 0; // REMOVE THIS LINE
+        double pi = 3.14;
+        double result = 5 * pi;
+        return result;
     }
 
     // EXERCISE 2:
@@ -34,7 +36,10 @@ public class Exercises {
     // Concatenate name and age together and store the result in a variable called result
     // Return the result
     public String concatenateNameAndAge() {
-        return ""; // REMOVE THIS LINE
+        String name = "Alice";
+        int age = 25;
+        String result = name + age;
+        return result;
     }
 
     // EXERCISE 3:
@@ -46,7 +51,13 @@ public class Exercises {
     // Otherwise, store "The program will end" into the result variable
     // Return the result
     public String continueOrEnd() {
-        return ""; // REMOVE THIS LINE
+        String result = "";
+        String prompt = "Do you want to continue?";
+        String userInput = "Yes";
+        if (userInput.equals("Yes"))
+            result = "The program will continue";
+        else result = "The program will end";
+        return result; // REMOVE THIS LINE
     }
 
     // EXERCISE 4:
@@ -56,7 +67,10 @@ public class Exercises {
     // In the loop body, set results[i] to i
     // Return results
     public int[] storeIndexInArray() {
-        return new int[0]; // REMOVE THIS LINE
+        int[] results = { 0, 0, 0 };
+        for (int i = 0; i < results.length; i++)
+            results[i] = i;
+        return results;
     }
 
     // EXERCISE 5:
@@ -69,14 +83,23 @@ public class Exercises {
     // If the current element is equal to correctAnswer, add 1 to result
     // Return result
     public int countCorrect() {
-        return 0; // REMOVE THIS LINE
+        String prompt = "What is our favorite language?";
+        String correctAnswer = "Java";
+        String[] studentAnswers = {"Python", "Java", "C++"};
+        int result = 0;
+        for ( String current : studentAnswers) {
+            if (current.equals(correctAnswer))
+                result++;
+        }
+        return result;
     }
 
     // EXERCISE 6:
     //
     // Complete this method to make it return the product of the two passed in parameters
     public int multiply(int x, int y) {
-        return 0; // REMOVE THIS LINE
+        int result = x * y;
+        return result; // REMOVE THIS LINE
     }
 
     // EXERCISE 7:
@@ -84,6 +107,10 @@ public class Exercises {
     // Complete this method to make it return the sum of all of the elements in the passed in array
     // For example, if the passed in array is {1, 2, 3}, the method should return 6
     public int sumArray(int[] arr) {
-        return 0; // REMOVE THIS LINE
+        int result = 0;
+        for (int el : arr) {
+            result += el;
+        }
+        return result; // REMOVE THIS LINE
     }
 }

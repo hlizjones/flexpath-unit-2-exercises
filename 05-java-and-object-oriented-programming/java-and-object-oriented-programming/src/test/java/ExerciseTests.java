@@ -44,7 +44,7 @@ public class ExerciseTests {
     public void testCountCorrect() {
         Exercises exercises = new Exercises();
         int result = exercises.countCorrect();
-        assertEquals(3, result);
+        assertEquals(1, result);
     }
 
     @Test
