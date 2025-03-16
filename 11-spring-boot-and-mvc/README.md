@@ -11,7 +11,7 @@ in IntelliJ.
 ## Project Overview 
 
 This project contains a simple Spring Boot application with a controller class
-and a model class for managin a list of books.  The list is defined in the
+and a model class for managing a list of books.  The list is defined in the
 `BookController` class as a simple in-memory list that is initialized with a few
 books when the application starts.
 

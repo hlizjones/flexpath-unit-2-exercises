@@ -57,7 +57,7 @@ public class ExerciseTests {
             Assertions.fail("safeDivideWithCustomException should throw a CustomDivideByZeroException: " + result);
         } catch (org.example.CustomDivideByZeroException e) {
             assertEquals(4.0, e.getA());
-            assertEquals(2.0, e.getB());
+            assertEquals(0.0, e.getB());
         }
     }
 }
