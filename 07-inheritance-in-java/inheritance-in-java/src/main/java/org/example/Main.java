@@ -17,20 +17,15 @@ public class Main {
      */
     private static List<Animal> animals = List.of(
             // TODO: Uncomment these two lines after implementing the Parrot class
-            /*
             new Parrot("Polly"),
             new Parrot("Loki"),
-            */
             // TODO: Uncomment these two lines after implementing the Lion class
-            /*
             new Lion("Simba"),
             new Lion("Nala"),
-            */
             // TODO: Uncomment these two lines after implementing the Elephant class
-            /*
             new Elephant("Dumbo"),
             new Elephant("Jumbo")
-             */
+
     );
 
     /**

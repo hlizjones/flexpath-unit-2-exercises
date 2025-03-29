@@ -15,23 +15,28 @@ public class BookController {
             new Book(5, "The Color Purple", "Alice Walker", 1982)
     ));
 
+    @GetMapping
     public List<Book> getBooks() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        return books;
     }
 
-    public Book getBookById(int id) {
-        throw new UnsupportedOperationException("Not implemented yet");
+    @GetMapping(path = "/{id}")
+    public Book getBookById(@PathVariable ("id") int id) {
+        return books.get(id-1);
     }
 
-    public void addBook(Book book) {
-        throw new UnsupportedOperationException("Not implemented yet");
+    @PostMapping
+    public void addBook(@RequestBody Book book) {
+        books.add(book);
     }
 
-    public void updateBook(int id, Book book) {
-        throw new UnsupportedOperationException("Not implemented yet");
+    @PutMapping(path = "/{id}")
+    public void updateBook(@PathVariable ("id") int id, @RequestBody Book book) {
+        books.set(id-1, book);
     }
 
-    public void deleteBook(int id) {
-        throw new UnsupportedOperationException("Not implemented yet");
+    @DeleteMapping(path = "/{id}")
+    public void deleteBook(@PathVariable("id") int id) {
+        books.remove(id-1);
     }
 }
